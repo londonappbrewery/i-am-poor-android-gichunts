@@ -15,17 +15,18 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="60dp"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="40dp"
         android:text="I am poor"
         android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
         android:textSize="40sp" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="395dp"
-        android:layout_height="289dp"
+        android:contentDescription="simbol"
+        android:layout_width="wrap_content"
+        android:layout_height="345dp"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="155dp"
+        android:layout_marginTop="137dp"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
